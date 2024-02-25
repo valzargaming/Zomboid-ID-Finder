@@ -39,7 +39,7 @@ function processFiles($directory, $isRootDirectory = true) {
             preg_match('/\/(\d+)\//', $directory, $idMatch);
             if (!empty($idMatch[1])) {
                 $id = $idMatch[1];
-                $both = $id . '=' . $result . PHP_EOL;
+                $both .= $id . '=' . $result . PHP_EOL;
                 //file_put_contents('Both.txt', $both, FILE_APPEND);
                 $ids .= $id . ';';
             }

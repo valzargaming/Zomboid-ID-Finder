@@ -4,10 +4,11 @@ Generates the values to enter into servertest.ini. Also creates a list that pair
 ## Usage
 
 1. Make sure you have PHP installed on your system.
-2. Run the script.php file using the command `php script.php`.
-3. The script will process files in the current directory and its subdirectories.
-4. The results will be written to WorkshopItems.txt and Mods.txt files.
-5. The Mods and WorkshopItems values will be displayed on the console.
+2. Place the script inside of your `\steamapps\workshop\content\108600` folder.
+3. Run the script.php file using the command `php script.php`.
+4. The script will process files in the current directory and its subdirectories.
+5. The results will be written to WorkshopItems.txt and Mods.txt files.
+6. The Mods and WorkshopItems values will be displayed on the console.
 
 ## License
 
